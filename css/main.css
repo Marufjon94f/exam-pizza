@@ -1,0 +1,40 @@
+body{
+    background-image: url(../pexels.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-left: 70px;
+    
+}
+
+
+.container{
+    background-color: whitesmoke;
+    opacity: 0.7;
+    margin: 0 auto;
+    
+    padding: 100px;
+    padding-top: 0;
+}
+.flash {
+    margin-left: 10px;
+}
+.input-flash{
+    margin-left: 10px;
+}
+
+.js-button{
+    border-radius: 10%;
+    color: tomato;
+    margin-bottom: 30px;
+   
+}
+
+.height{
+    display: flex;
+}
+.js-height{
+    margin: 0;
+    margin-top: 3px;
+    margin-left: 5px;
+}
