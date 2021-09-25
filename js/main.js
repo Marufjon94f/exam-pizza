@@ -38,7 +38,7 @@ elSelect.addEventListener("change", function1);
   elCreateOption.textContent = choiceOFPizza[i];
 }
 
-//task 2 *************************************************************************************************************************************************************
+//task 2 ***************************************************************************************************************************************************************
 
 var sizeOfPizza = ["25sm", "30sm", "35sm"];
 for (var i = 0; i < sizeOfPizza.length; i++) {
@@ -89,7 +89,7 @@ for (var i = 0; i < toppings.length; i++) {
   var elCreateToppingLabel = document.createElement("label");
   var elCreateToppingInput = document.createElement("input");
   var elCreateToppingSpan = document.createElement("span");
-  // var elCreateToppingsLi = document.createElement("li");
+  
 
   
 
@@ -104,11 +104,10 @@ for (var i = 0; i < toppings.length; i++) {
   elCreateToppingLabel.appendChild(elCreateToppingInput);
   elCreateToppingLabel.appendChild(elCreateToppingSpan);
   elToppings.appendChild(elCreateToppingLabel);
+
   //function for task 3 
   
-     
-   
-    
+         
     elCreateToppingInput.addEventListener("change", function(){
 
       if(toppingsSecond.includes(this.value)){
@@ -122,7 +121,6 @@ for (var i = 0; i < toppings.length; i++) {
    
       elToppingsList.textContent ="";
        
-    // toppingsSecond.push(this.value);
     
 
     for (var l = 0; l < toppingsSecond.length; l++) {
@@ -174,7 +172,6 @@ for(var f = 0; f<add.length; f++){
     elAdditionalList.innerHTML = null;
 
     
-
 for(var t = 0; t < addResult.length; t++){
 
   var elCreateAddLi = document.createElement("li");
